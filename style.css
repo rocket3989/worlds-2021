@@ -1,0 +1,316 @@
+button {
+    display: inline-block;
+    border: none;
+    padding: 5px;
+    margin: 0px 5px;
+    background: rgb(218, 218, 218);
+    color: #000000;
+    font-family: sans-serif;
+    font-size: .9rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: rgb(194, 194, 194);
+}
+
+
+button:active {
+    transform: scale(0.99);
+}
+
+svg{
+    font-family: monospace;
+    overflow: visible;
+    font-size: 14px;
+}
+
+svg text{
+    -webkit-text-shadow: 0 1px 0 #F5F5F5, 1px 0 0 #F5F5F5, 0 -1px 0 #F5F5F5, -1px 0 0 #F5F5F5;
+    text-shadow: 0 1px 0 #F5F5F5, 1px 0 0 #F5F5F5, 0 -1px 0 #F5F5F5, -1px 0 0 #F5F5F5;
+
+}
+
+html {
+    min-width: 760px;
+    background-color: #F5F5F5;
+    font-weight: normal;
+    margin: auto 0px ;
+    
+
+}
+
+h1{
+	text-align: center;
+}
+ 
+div.matches{
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -khtml-user-select: none; 
+    -ms-user-select: none;
+} 
+
+.annotations{
+	pointer-events: all;
+    z-index: -1;
+}
+
+
+.group{
+    margin: 0px auto;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.group-header{
+    text-align: center;
+    margin-bottom: -0px;
+    margin-top: 80px;
+    opacity: 0;
+}
+
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+sub { 
+    top: 0.4em; 
+}
+
+.team{
+    display: inline-block;
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.active{
+    stroke: black;
+    stroke-width: 4;
+}
+
+.hidden{
+    opacity: .2;
+}
+
+
+div.tooltip {
+    top: -1000px;
+    position: fixed;
+    padding: 10px;
+    background: rgba(255, 255, 255, .90);
+    border: 1px solid lightgray;
+    pointer-events: none;
+    font-family: monospace;
+	width: 200px;
+	
+
+}
+.tooltip > .game{
+	display: inline-block;
+	width: 100px;
+	height: 25px;
+}
+.tooltip-hidden{
+    opacity: 0;
+    transition: all .3s;
+    transition-delay: .1s;
+}
+.tooltip.game{
+	width: 50px;
+}
+
+
+.game .won{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.matches{
+    font-size: 16px;
+	text-align: center;
+	margin-left: 0px;
+}
+
+.matches .game{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-right: 10px;
+    opacity: .6;
+    font-family: monospace;
+}
+.matches .game.active{
+    opacity: 1;
+}
+
+
+.annotations text{
+    font-size: 12px;
+}
+html{
+	background-color: #f5f5f5;
+	font-weight: normal;
+}
+
+body{
+	max-width: 750px;
+	margin: 0px auto;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.55em;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 80px;
+}
+
+@media(max-width: 760px){
+	body{
+        padding: 5px;
+        margin: 0px 8px;
+	}
+	.matches{
+		margin-left: 20px;
+	}
+}
+
+p{
+	line-height: 1.55em;
+}
+
+a{
+	color: black;
+}
+
+.header{
+  position: relative;
+  color: black;
+  font-size: 16px;
+  height: 24px;
+  overflow: visible;
+  /*font-family: Consolas, monaco, 'Lucida Console', monospace; */
+  /*font-family: 'Roboto', serif;*/
+  font-family: 'Roboto Slab', serif;
+}
+.header-left{
+	float: left;
+}
+.header-right{
+	float: right;
+}
+.header span{
+	opacity: .5;
+}
+
+.header a{
+	opacity: .5;
+	text-decoration: none;
+}
+.header a:hover{
+	opacity: 1
+}
+.header img{
+	width: 16px;
+  	margin-right: 2px;
+	position: relative;
+	top: 2px;
+}
+
+
+h1,h2,h3,h4,h5{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+h1{
+	font-weight: 500;
+	font-size: 34px;
+	margin-bottom: 1.2em;
+	line-height: 1.3em;
+	margin-top: 1.2em;
+}
+h2,h3,h4,h5{
+	font-size: 22px;
+}
+
+:not(pre) > code{
+	background: #dedede;
+	padding: .05em;
+	padding-left: .2em;
+	padding-right: .2em;
+	border-radius: 2px;
+  	font-family: monospace; 
+}
+
+strong{
+	font-weight: bold;
+}
+
+.annotations path{
+    fill: none;
+    stroke: #000;
+    stroke-width: .6px;
+}
+
+@media (prefers-color-scheme: dark) {
+    html{
+        background-color: #222;
+        color: #aaa
+    }
+    svg text{
+        /*-webkit-text-stroke: 4px navy;*/
+        -webkit-text-shadow: 0 1px 0 #222, 1px 0 0 #222, 0 -1px 0 #222, -1px 0 0 #222;
+        text-shadow: 0 1px 0 #222, 1px 0 0 #222, 0 -1px 0 #222, -1px 0 0 #222;
+        color: #aaa
+    
+    }
+    text{
+        color: #aaa;
+        fill: #aaa;
+    }
+    ​path {
+        stroke: #aaa;
+    }​
+    .annotations path {
+        fill: none;
+        stroke: #aaa;
+    }
+    marker {
+        stroke: #aaa;
+        fill: #aaa
+    }
+    a{
+        color: #aaa;
+        stroke: #aaa;
+        fill: #aaa
+    }
+    body{
+        color: #aaa;
+    }
+    
+    div.tooltip {
+        background:#222e;
+    }
+    .matches .game{
+        border: 1px solid #aaa;
+    }
+    .header{
+        color: #aaa;
+	}
+	.scenario.active{
+		stroke: #aaa;
+		stroke-width: 3;
+
+	}
+}

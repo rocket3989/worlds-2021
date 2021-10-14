@@ -1,0 +1,100 @@
+
+[
+  {
+    "path": "M -36,279 A 45.026 45.026 0 0 0 43,310",
+    "text": "Tap to see how the first match affects the group",
+    "team": "RGE",
+    "lw": 21,
+    "textOffset": [
+      -47,
+      244
+    ]
+  },
+  {
+    "path": "M 286,220 A 123.355 123.355 0 0 1 105,221",
+    "text": "DK can lose all three games and still advance without a tiebreaker",
+    "team": "DK",
+    "lw": 24,
+    "textOffset": [
+    241, 185
+    ]
+  },
+  {
+    "path": "M -2000 0",
+    "text": "Two loses eliminate TL and MAD",
+    "team": "MAD",
+    "lw": 22,
+    "textOffset": [
+      -107,
+      190
+    ]
+  },
+  {
+    "path": "M -2000 0",
+    "text": "Two wins guarantee advancement for LNG and GEN",
+    "team": "GEN",
+    "lw": 22,
+    "textOffset": [
+      -107,
+      0
+    ]
+  },
+  {
+    "path": "M -78,28 A 46.193 46.193 0 0 0 -9,76",
+    "text": "C9 doesn't need to beat DK to advance if the stars align",
+    "team": "C9",
+    "lw": 20,
+    "textOffset": [
+      -108,
+      -19
+    ]
+  },
+  {
+    "path": "M 210,247 A 24.767 24.767 0 0 1 168,222",
+    "text": "There is only a single scenario in which EDG is eliminated without a tiebreaker",
+    "team": "EDG",
+    "lw": 24,
+    "textOffset": [
+    218, 198
+    ]
+  },
+  {
+    "path": "M 261,-64 A 62.002 62.002 0 0 1 182,4",
+    "text": "Even with three wins, DFM can still be eliminated",
+    "team": "DFM",
+    "lw": 24,
+    "textOffset": [
+    150,
+    -100
+    ]
+  },
+  {
+    "path": "M -36,279 A 45.026 45.026 0 0 0 43,310",
+    "text": "HLE's chances hang on winning the first match",
+    "team": "HLE",
+    "lw": 21,
+    "textOffset": [
+      -60,
+      225
+    ]
+  },
+  {
+    "path": "M 63,216 A 47.621 47.621 0 0 1 75,172",
+    "text": "Getting a win against HLE or PSG advances RNG",
+    "team": "RNG",
+    "lw": 24,
+    "textOffset": [
+    -23, 
+    235
+    ]
+  },
+  {
+    "path": "M -5,245 A 80.263 80.263 0 0 0 91,223",
+    "text": "PSG can lose all three games and still get a tiebreaker",
+    "team": "PSG",
+    "lw": 24,
+    "textOffset": [
+    -110, 217
+    ]
+  }
+]
