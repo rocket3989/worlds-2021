@@ -24,7 +24,7 @@ function readFile(){
             d.allTeams = d.t1 + '-' + d.t2
             if (!teams2wins[d.t1]) teams2wins[d.t1] = 0
             if (!teams2wins[d.t2]) teams2wins[d.t2] = 0
-            if (d.date < "10-8") teams2wins[d.wName]++     //make sure to change key each year
+            if (d.date < "10-15") teams2wins[d.wName]++     //make sure to change key each year
         })
     
         byGroup = d3.nestBy(matches, ƒ('group'))
